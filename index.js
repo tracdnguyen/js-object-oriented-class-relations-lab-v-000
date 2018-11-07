@@ -16,11 +16,9 @@ class Driver {
   }
 
   passengers() {
-    return this.trips().map(function(trip) {
-      return trip.passengers()
-    })
+    return this.trips().map(trip => trip.passenger()
   }
-}
+
 
 class Passenger {
   constructor(name) {
@@ -44,12 +42,12 @@ class Trip {
   }
 
   passenger() {
-    return store.passengers.find(passenger => 
+    return store.passengers.find(passenger =>
       this.passengerId === passenger.id)
   }
 
   driver() {
-    return store.drivers.find(driver => 
+    return store.drivers.find(driver =>
       this.driverId === driver.id)
   }
 
