@@ -16,9 +16,9 @@ class Driver {
   }
 
   passengers() {
-  
-  }
 
+  }
+}
 
 class Passenger {
   constructor(name) {
