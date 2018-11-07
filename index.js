@@ -60,5 +60,5 @@ class Trip {
     }).bind(this)
   }
 
-  
+
 }
