@@ -20,6 +20,10 @@ class Driver(){
   }
 
   passengers() {
-    
+    return store.passengers.filter(
+      function(passenger) {
+        return passenger.driverID === this.id
+      }.bind(this)
+    )
   }
 }
