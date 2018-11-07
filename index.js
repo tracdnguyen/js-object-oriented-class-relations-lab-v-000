@@ -28,7 +28,7 @@ class Passenger {
   }
 
   trips() {
-    return store.trips.filter(trip => trip.passengers())
+    return store.trips.filter(trip => trip.passenger())
   }
 
   passengers() {
