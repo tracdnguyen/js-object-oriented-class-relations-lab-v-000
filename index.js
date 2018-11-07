@@ -27,6 +27,13 @@ class Passenger {
     store.passengers.push(this)
   }
 
+  trips() {
+    
+  }
+
+  passengers() {
+    
+  }
 }
 
 class Trip {
