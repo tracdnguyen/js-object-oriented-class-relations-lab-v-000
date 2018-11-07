@@ -31,8 +31,8 @@ class Passenger {
     return store.trips.filter(trip => trip.passenger())
   }
 
-  passengers() {
-
+  drivers() {
+    return this.trips().map(trip => trip.drivers())
   }
 }
 
@@ -60,3 +60,4 @@ class Trip {
 
 
 }
+ 
