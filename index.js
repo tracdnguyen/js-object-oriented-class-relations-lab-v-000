@@ -33,3 +33,11 @@ class Passenger {
   }
   
 }
+
+class Trip {
+  constructor(name) {
+    this.name = name
+    this.id = tripID++
+    store.trips.push(this)
+  }
+}
