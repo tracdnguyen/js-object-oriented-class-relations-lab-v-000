@@ -16,7 +16,6 @@ class Driver {
       function(trip) {
         return trip.driverID === this.id
       }).bind(this)
-    
   }
 
   passengers() {
