@@ -32,7 +32,7 @@ class Passenger {
   }
 
   drivers() {
-    return this.trips().map(trip => trip.driver())
+    return this.trips().map(trip => trip.drivers())
   }
 }
 
@@ -60,3 +60,4 @@ class Trip {
 
 
 }
+ 
