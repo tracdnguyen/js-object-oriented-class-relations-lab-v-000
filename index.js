@@ -28,11 +28,11 @@ class Passenger {
   }
 
   trips() {
-    
+    return store.trips.filter(trip => trip.passengers())
   }
 
   passengers() {
-    
+
   }
 }
 
